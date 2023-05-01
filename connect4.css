@@ -12,7 +12,7 @@ body {
 }
 
 .title {
-  font-size: 75px;
+  font-size: 85px;
   font-family: 'Fredericka the Great', cursive;
   text-align: center;
   /* margin-right: auto; */
@@ -29,6 +29,8 @@ body {
 .p1Color, .p2Color {
   background-color: rgba(255, 255, 255, 0.60);
   border-radius: .1cm;
+  height: 25px;
+  width: 200px;
 }
 
 .ui {
@@ -38,7 +40,7 @@ body {
 
 input.start {
   width: 75px;
-  height: 30px;
+  height: 35px;
   background-color: greenyellow;
 }
 
@@ -49,8 +51,8 @@ input.start:hover{
 /* game board table */
 
 #board td {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   background-color: white;
   border: solid 1px #666;
 }
